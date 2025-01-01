@@ -1,0 +1,194 @@
+meta:
+  author: callum sharrock
+
+units:
+  # Cherry MX switch size 
+  u: 19.05
+  # Padding Variables
+  px: u + 2
+  py: u + 2
+
+points:
+  zones:
+    matrix:
+      rows:
+        row1:
+        row2:
+        row3:
+        row4:
+        row5:
+
+      columns:
+        col1:
+          rows.row5:
+            label: "~`"
+          rows.row4:
+            label: "tab"
+            width: 1.5u
+            shift: [0, 0]
+          rows.row3:
+            label: "capsLock"
+            width: 1.5u
+          rows.row2:
+            label: "lShift"
+            width: 1.75u
+          rows.row1:
+            label: "fn"
+          
+        col2:
+          rows.row5:
+            label: "1"
+          rows.row4:
+            label: "q"
+          rows.row3:
+            label: "a"
+          rows.row2:
+            label: "z"
+          rows.row1:
+            label: "ctrl"
+
+        col3:
+          rows.row5:
+            label: "2"
+          rows.row4:
+            label: "w"
+          rows.row3:
+            label: "s"
+          rows.row2:
+            label: "x"
+          rows.row1:
+            label: "cmd"
+            width: 1.25u
+            
+        col4:
+          rows.row5:
+            label: "3"
+          rows.row4:
+            label: "e"
+          rows.row3:
+            label: "d"
+          rows.row2:
+            label: "c"
+          rows.row1:
+            skip: true
+
+        col5:
+          rows.row5:
+            label: "4"
+          rows.row4:
+            label: "r"
+          rows.row3:
+            label: "f"
+          rows.row2:
+            label: "v"
+          rows.row1:
+            skip: true
+
+        col6:
+          rows.row5:
+            label: "5"
+          rows.row4:
+            label: "t"
+          rows.row3:
+            label: "g"
+          rows.row2:
+            label: "b"
+          rows.row1:
+            label: "space"
+            width: 5u
+
+        col7:
+          rows.row5:
+            label: "6"
+          rows.row4:
+            label: "y"
+          rows.row3:
+            label: "h"
+          rows.row2:
+            label: "n"
+          rows.row1:
+            skip: true
+
+        col8:
+          rows.row5:
+            label: "7"
+          rows.row4:
+            label: "u"
+          rows.row3:
+            label: "j"
+          rows.row2:
+            label: "m"
+          rows.row1:
+            skip: true
+
+        col9:
+          rows.row5:
+            label: "7"
+          rows.row4:
+            label: "u"
+          rows.row3:
+            label: "j"
+          rows.row2:
+            label: "m"
+          rows.row1:
+            skip: true
+
+        col10:
+          rows.row5:
+            label: "8"
+          rows.row4:
+            label: "i"
+          rows.row3:
+            label: "k"
+          rows.row2:
+            label: ","
+          rows.row1:
+            label: "rCmd"
+            width: 1.25u
+
+        col11:
+          rows.row5:
+            label: "9"
+          rows.row4:
+            label: "o"
+          rows.row3:
+            label: "l"
+          rows.row2:
+            label: "."
+          rows.row1:
+            label: "rOption"
+
+        col12:
+          rows.row5:
+            label: "0"
+          rows.row4:
+            label: "p"
+          rows.row3:
+            label: ";"
+          rows.row2:
+            label: "/"
+          rows.row1:
+            label: "rOption"
+
+        col13:
+
+        col14:
+          rows.row1:
+          rows.row5:
+            label: delete
+            width: 1.5u
+          rows.row4:
+            label: '|\'
+          rows.row3:
+            label: return
+            width: 1.5u
+          rows.row2:
+            label: rShift
+            width: 1.75u
+
+outlines:
+  left:
+    - where: true
+      what: rectangle
+      size: [cx + 2, cy + 2]
+      fillet: 2
